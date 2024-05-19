@@ -9,6 +9,8 @@ from mypackage import db
 from mypackage import routes
 from mypackage import database
 
+
+#It creates teh database and sample users tables.
 if not os.path.exists("./database.db"):
     print("no database. Hence creating a sqlite database.db and tables e.g. user table")
     database.create_database()

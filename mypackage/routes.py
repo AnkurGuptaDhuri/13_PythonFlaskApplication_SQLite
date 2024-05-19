@@ -1,6 +1,5 @@
 from flask import g, request, jsonify
 import sqlite3
-
 from mypackage import db
 from mypackage import app
 
